@@ -17,7 +17,7 @@ setuptools.setup(
     description="Common Py utils for the KGIO project",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=["pyaml", "confluent-kafka", "confluent-kafka[avro]", "dataclasses-avroschema", "dacite"],
+    install_requires=["pyaml", "confluent-kafka[avro]", "dataclasses-avroschema", "dacite"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
