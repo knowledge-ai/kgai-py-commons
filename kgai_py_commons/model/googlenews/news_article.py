@@ -13,10 +13,10 @@ from kgai_py_commons.model.googlenews.source_article import SourceArticle
 
 @dataclass
 class NewsArticle:
-    title: str
     publishedAt: str
     url: str
     # optional fields
+    title: Optional[str]
     urlToImage: Optional[str]
     description: Optional[str]
     content: Optional[str]
